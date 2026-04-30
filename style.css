@@ -5,7 +5,7 @@ body{
     display:flex;
     flex-direction: column;
     min-height: 100vh;
-    min-width: 100vh;
+    min-width: 100vw;
 }
 
 #all{
@@ -13,9 +13,7 @@ body{
 }
 
 nav{
-
-    padding:10px;
-    
+    padding: 0.5em;
 }
 
 .nav_bar ul{
@@ -31,11 +29,12 @@ nav{
 .nav_bar a{
     color: black;
     text-decoration: none;
-    padding: 15px;
+    padding: 0.4em;
     display: block;
     text-align: center;
     font-size: 3em;
     border-left: 4px solid black;
+    background-color: honeydew;
 }
 
 #last-header-link{
@@ -56,21 +55,22 @@ nav{
 
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0px;
+    margin: 0;
     font-weight: bold;
     color: black;
-    background-color: honeydew;
+    /* background-color: honeydew; */
     padding: 5px;
     display: flex;
     justify-content: space-between; 
     border-bottom: 10px groove black;
+    background: linear-gradient(to right,rgb(225, 144, 158), rgb(56, 56, 116));
 }
 
 header > img{
     height: 70px;
     width: 70px;
-
-    margin:15px;
+    padding: 0.4em;
+    margin:1em;
 }
 
 header > p{
@@ -80,6 +80,7 @@ header > p{
     text-align: center;
     justify-content: center;
     overflow:hidden;
+    
 
 }
 
@@ -88,7 +89,7 @@ header > p{
     background-color: rgb(195, 212, 212);
     background-color: rgba(255, 255, 255, 0.8);
     background-blend-mode: overlay;
-    padding: 100px;
+    padding: 5em;
     border: 5px rgba(255,255,255,0.8) solid;
     border-radius: 20px;
     text-align: center;
@@ -100,19 +101,27 @@ header > p{
 }
 
 section{
-    display: flex;
-    justify-content: space-between;
-    min-width: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5em;
+    /* justify-content: space-between; */
+    min-width: 100vw;
+    margin-top: 2em;
+    width: fit-content;
+    /* margin-top: auto; */
 }
 
-section > img{
-    height: 512px;
-    width: 512px;
-    
-}
+
+
 #front-img{
-    margin-top:2em;
-    margin-right:2em;
+    /* margin-top:2em;
+    margin-right:2em; */
+    /* width: 128px;
+    height: 128px; */
+    width: 100%;
+    height: auto;
+    margin-top: 3em;
+    /* margin-left: 7em; */
 }
 
 div > p{
@@ -139,9 +148,9 @@ footer > p >a{
     color: rgb(58, 22, 203);
 }
 
-@media screen and (max-width: 600px){
-    section > img{
-        height: 60px;
-        width: 60px;
+@media screen and (min-width: 200px) and (max-width: 600px){
+    #front-img{
+        height: 90px;
+        width: 90px;
     }
 }
