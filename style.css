@@ -139,4 +139,9 @@ footer > p >a{
     color: rgb(58, 22, 203);
 }
 
-
+@media screen and (max-width: 600px){
+    section > img{
+        height: 60px;
+        width: 60px;
+    }
+}
