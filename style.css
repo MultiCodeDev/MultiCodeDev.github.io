@@ -1,10 +1,5 @@
 body{
-    background-image: url("img/pexels-snapsbyclark-12981881.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: rgba(255, 255, 255, 0.5);
-    background-blend-mode: overlay;
+    background: linear-gradient(to right,rgb(225, 144, 158), rgb(56, 56, 116));
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display:flex;
@@ -128,7 +123,7 @@ div > p{
 }
 
 footer{
-    background-color: hsl(253, 70%, 68%);
+    background-color: hsl(151, 86%, 54%);
     bottom: 0;
     color:rgb(0, 0, 0);
     text-align: center;
@@ -137,7 +132,7 @@ footer{
 
 footer > p >a{
     text-decoration: none;
-    color: pink;
+    color: rgb(58, 22, 203);
 }
 
 
