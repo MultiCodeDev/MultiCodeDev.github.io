@@ -1,0 +1,143 @@
+body{
+    background-image: url("img/pexels-snapsbyclark-12981881.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#all{
+    flex: 1;
+}
+
+nav{
+
+    padding:10px;
+    
+}
+
+.nav_bar ul{
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.nav_bar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size:40px;
+    border-left: 4px solid black;
+}
+
+#last-header-link{
+    border-right: 4px solid black;
+}
+
+.nav_bar a:hover{
+    background-color: black;
+    color: white;
+    
+}
+
+.navbar li{
+    float: left;
+    padding:10px;
+}
+
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    font-weight: bold;
+    color: black;
+    background-color: honeydew;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 10px groove black;
+}
+
+header > img{
+    height: 70px;
+    width: 70px;
+
+    margin:15px;
+}
+
+header > p{
+    margin: 0;
+    padding: 20px;
+    font-size: 2.0em;
+    text-align: center;
+    justify-content: center;
+    overflow:hidden;
+
+}
+
+#front-info{
+    
+    background-color: rgb(195, 212, 212);
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: overlay;
+    padding: 100px;
+    border: 5px rgba(255,255,255,0.8) solid;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+section > img{
+    height: 512px;
+    width: 512px;
+    
+}
+#front-img{
+    margin-top:100px;
+    margin-right:1em;
+}
+
+div > p{
+    font-size: 30px;
+    font-family: Tahoma, sans-serif;
+    
+}
+
+#first-line{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: hsl(253, 70%, 68%);
+    bottom: 0;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: larger;
+}
+
+footer > p >a{
+    text-decoration: none;
+    color: pink;
+}
+
+
